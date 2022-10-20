@@ -1,22 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - func
- *
- * Return - 0
- */
-void print_alphabet_x10(void)
+*print_alphabet - Entry point
+*Description: a function that prints the alphabet,
+*in lowecase followed by a new line
+*Return: void
+*/
+void print_alphabet(void)
 {
-int n = 0;
-while (n < 10)
+char letter = 'a';
+
+while (letter <= 'z')
 {
-char a = 'a';
-while (a <= 'z')
-{
-_putchar(a);
-a++;
+_putchar(letter);
+letter++;
 }
 _putchar('\n');
-n++;
-}
 }
