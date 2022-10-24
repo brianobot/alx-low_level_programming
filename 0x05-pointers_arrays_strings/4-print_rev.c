@@ -6,7 +6,7 @@
  * @s first parameter
  *
  * Return: void
- *//
+ */
 
 void print_rev(char *s)
 {
