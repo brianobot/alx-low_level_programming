@@ -15,6 +15,6 @@ void print_rev(char *s)
 	while (s[i])
 		i++;
 	while (i--)
-		printf("%c", s[i]);
-	puts('');
+		_putchar(s[i]);
+	_putchar('');
 }
