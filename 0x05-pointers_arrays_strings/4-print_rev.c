@@ -3,7 +3,7 @@
 /**
  * print_rev - takes a string and prints it in reverse
  *
- * @s first parameter
+ * @s: first parameter
  *
  * Return: void
  */
