@@ -3,11 +3,12 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
- * *main - function to determine if number is positive, negative or zero
+/**
+ * main - Entry point
  *
- * Return - 0
+ * Return: Always return 0
  */
+
 int main(void)
 {
 	int n;
