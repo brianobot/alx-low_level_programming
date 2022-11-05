@@ -3,8 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* 
- * main - function to determine if number is positive, negative or zero
+/*
+ * *main - function to determine if number is positive, negative or zero
  *
  * Return - 0
  */
