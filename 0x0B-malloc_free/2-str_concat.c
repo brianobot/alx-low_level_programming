@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 		s1_len++;
 
 	while (*(s2 + s2_len) != '\0')
-		s2_len++
+		s2_len++;
 
 	alloc_mem = malloc(1 + (s1_len * sizeof(*s1)) + (s2_len * sizeof(*s2)));
 
