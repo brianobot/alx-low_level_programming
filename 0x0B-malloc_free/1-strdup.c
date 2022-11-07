@@ -12,7 +12,6 @@ char *_strdup(char *str)
 	char *alloc_mem;
 	unsigned int i;
 	unsigned int string_len = 0;
-	
 	if (str == NULL)
 		return (NULL);
 
