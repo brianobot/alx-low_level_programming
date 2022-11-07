@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -10,9 +10,10 @@
  */
 void free_grid(int **grid, int height)
 {
-	int i = 0;
+	int i;
 
-	for (; i < height; i++)
+	for (i = 0; i < height; i++)
 		free(grid[i]);
+
 	free(grid);
 }
