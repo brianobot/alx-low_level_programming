@@ -3,7 +3,7 @@
 
 /**
  * _strdup - function to copy string
- * @*str: string to be copied
+ * @str: string to be copied
  *
  * Return: pointer or Null
  */
@@ -12,6 +12,9 @@ char *_strdup(char *str)
 	char *alloc_mem;
 	unsigned int i;
 	unsigned int string_len = 0;
+	
+	if (str == NULL)
+		return (NULL);
 
 	while (*(str + string_len) != '\0')
 		string_len++;
