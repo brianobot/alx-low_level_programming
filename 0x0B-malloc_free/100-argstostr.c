@@ -18,7 +18,7 @@ int _strlen(char *s)
 
 /**
  * argstostr - description
- * @ac :int 
+ * @ac :int
  * @av : arguments
  *
  * Return: string
