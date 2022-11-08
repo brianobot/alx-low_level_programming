@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdldib.h>
+#include <stdlib.h>
 
 /**
  * _strlen - find length og string
