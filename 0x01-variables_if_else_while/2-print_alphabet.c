@@ -12,10 +12,10 @@ int main(void)
 	char a = 'a';
 	unsigned int i;
 
-	for (i = a, i < (a + 25); ++i)
+	for (i = a; i < (int)(a + 25); ++i)
 	{
 		putchar(i);
 	}
 	putchar('\n');
-	return (0);
+	return (0)i
 }
