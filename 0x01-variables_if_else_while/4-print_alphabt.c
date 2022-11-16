@@ -16,8 +16,10 @@ int main(void)
 	for (i = lower_base; i <= lower_size; ++i)
 	{
 		if (i == 'e' || i == 'q')
-		       continue;
-		putchar(i);	
+		{
+			continue;
+		}
+		putchar(i);
 	}
 	return (0);
 }
