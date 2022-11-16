@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = a, i < (a + 25); ++i)
 	{
-		putchar(index);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
