@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (j = base + 1; j < 10; ++j)
 		{
-			if (i == j && i > j)
+			if (i == j || i > j)
 				continue;
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
