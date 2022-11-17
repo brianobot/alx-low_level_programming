@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- *print_alphabet - function to prints all alphabet
- *Description: a function that prints the alphabet,
- *in lowecase followed by a new line
- *Return: void
+ * print_alphabet - main entry point
+ *
+ * Return: nothing
  */
-void print_alphabet(void)
-{
-	char letter = 'a';
 
-	while (letter <= 'z')
+void print_alphabet()
+{
+	int start = 'a';
+
+	while (start != 'z')
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(start);
+		++start;
 	}
 	_putchar('\n');
 }
