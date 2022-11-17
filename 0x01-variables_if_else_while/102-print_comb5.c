@@ -24,7 +24,7 @@ int main(void)
 			sTens = j / 10;
 			sOnes = j % 10;
 
-			if (fTens < sTen || (fTens == sTen && fOnes < sOnes))
+			if (fTens < sTens || (fTens == sTen && fOnes < sOnes))
 			{
 				putchar(fTens + '0');
 				putchar(fOnes + '0');
