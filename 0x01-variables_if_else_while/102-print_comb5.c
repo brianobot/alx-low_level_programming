@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all combination of 2 digits numbers from 0 to 99
+ * main - a program that prints all combination of 2
  *
  * Return: integer
  */
