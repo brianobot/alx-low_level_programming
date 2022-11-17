@@ -26,11 +26,17 @@ void print_times_table(int n)
 					_putchar(32);
 					_putchar((op % 10) + 48);
 				}
-				else
+				else if (op > 99)
 				{
 					_putchar(((op / 100) % 10) + 48);
 					_putchar(((op / 10) % 10) + 48);
 					_putchar((op % 10) + 48);
+				}
+				else 
+				{
+					_putchar(32);
+					_putchar(((z / 10) % 10) + '0');
+					_ptuchar((z % 10) + '0');
 				}
 			}
 			_putchar('\n');
