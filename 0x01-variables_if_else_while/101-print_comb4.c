@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (k = base + 1; k < (base + 10); ++k)
 			{
-				if ( (i == j) || (i == k) || (j == k) || (i > j) || (i > k) || (j > k))
+				if ((i == j) || (i == k) || (j == k) || (i > j) || (i > k) || (j > k))
 					continue;
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
@@ -27,7 +27,7 @@ int main(void)
 					continue;
 				putchar(',');
 				putchar(' ');
-			}	
+			}
 		}
 	}
 	putchar('\n');
