@@ -8,13 +8,13 @@
 
 int _islower(int c)
 {
-	int result = 1;
+	int result = 0;
 	int i;
 
-	for (i = 65; i < 65 + 25; ++i)
+	for (i = 97; i < 97 + 26; ++i)
 	{
 		if (c == i)
-			return (0);
+			return (1);
 	}
 
 	return (result);
