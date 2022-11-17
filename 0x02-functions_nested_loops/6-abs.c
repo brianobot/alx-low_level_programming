@@ -12,7 +12,7 @@ int _asb(int number)
 {
 	int val;
 
-	if (val >= 0)
+	if (number >= 0)
 		return (number);
 	val = (int) number / -1;
 
