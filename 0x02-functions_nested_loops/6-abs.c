@@ -8,7 +8,7 @@
  * Return: integer
  */
 
-int _asb(int number)
+int _abs(int number)
 {
 	int val;
 
