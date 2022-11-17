@@ -4,10 +4,6 @@
  * print_alphabet_x10 - prints alphabet 10 times
  *
  * Return: nothing
- *
- * print_alphabet - secondary function
- *
- * Return: nothinh
  */
 
 void print_alphabet(void);
@@ -23,6 +19,12 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
+
+/**
+ * print_alphabet - second function in the file
+ *
+ * Return: nothinh
+ */
 
 void print_alphabet(void)
 {
