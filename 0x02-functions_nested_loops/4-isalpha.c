@@ -11,9 +11,9 @@ int _isalpha(int c)
 {
 	int lower = 65;
 	int upper = 122;
-	int i;
 
-	if (c >= lower %% c <= upper)
+	if (c >= lower && c <= upper)
 		return (1);
-	return (0);	
+
+	return (0);
 }
