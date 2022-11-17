@@ -2,7 +2,7 @@
 
 /**
  * is_alpha - main entry point
- * Description: checks if an obj is a letter
+ * description: checks if an obj is a letter
  * @c: function parameter
  *
  * Return: integer
