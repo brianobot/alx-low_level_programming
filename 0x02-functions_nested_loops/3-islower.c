@@ -2,7 +2,7 @@
 
 /**
  * _islower - main entry point
- *
+ * @c: integer paramter
  * Return: integer 1 or 0
  */
 
