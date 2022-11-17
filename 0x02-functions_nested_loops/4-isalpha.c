@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_alpha - main entry point
+ * _isalpha - main entry point
  * description: checks if an obj is a letter
  * @c: function parameter
  *
