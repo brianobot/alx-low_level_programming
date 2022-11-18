@@ -4,7 +4,7 @@
  * main - main entry point
  *
  * Return: integer
- * 
+ *
  */
 
 int main(void)
