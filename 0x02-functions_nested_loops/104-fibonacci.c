@@ -13,14 +13,14 @@ int main(void)
 	unsigned long fib2 = 1;
 	unsigned long sum;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 99; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 49)
+		if (count == 98)
 			printf("\n");
 		else
 			printf(", ");
