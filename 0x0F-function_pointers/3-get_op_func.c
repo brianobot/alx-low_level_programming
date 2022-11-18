@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - selectes the correts funtion to perfom
- * @: the operator passes as argument
+ * @s: the operator passes as argument
  *
  * Return: a pointer 
  */
