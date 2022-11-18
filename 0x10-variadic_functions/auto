@@ -1,5 +1,4 @@
 #!/bin/bash
-ls | betty-style 
 git add .
 git commit -m "Add new task"
 git push
