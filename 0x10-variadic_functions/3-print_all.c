@@ -85,7 +85,7 @@ void print_all(const char *const format, ...)
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float},
-		{"s", prinit_string}};
+		{"s", print_string}};
 
 	va_start(args, format);
 
