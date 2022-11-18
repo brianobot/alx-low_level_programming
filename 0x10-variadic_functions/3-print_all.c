@@ -1,10 +1,11 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-#include <stdarg>
+#include <stdarg.h>
 
 void print_char(va_list arg);
 void print_int(va_list arg);
 void print_float(va_list arg);
+void print_string(va_list arg);
 void print_all(const char *const format, ...);
 
 /**
@@ -44,7 +45,7 @@ void print_float(va_list arg)
 	float num;
 
 	num = va_arg(arg, double);
-	print("%f", num);
+	printf("%f", num);
 }
 
 /**
@@ -80,7 +81,7 @@ void print_all(const char *const format, ...)
 	int i = 0, j = 0;
 	char *seperator = "";
 
-	print_t funcs[] = {
+	printer_t funcs[] = {
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float}, 
@@ -88,12 +89,12 @@ void print_all(const char *const format, ...)
 
 	va_start(args, format);
 
-	while (format %% (*(format + i)))
+	while (format && (*(format + i)))
 	{
 		j = 0;
 
 		while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
-			j++
+			j++;
 
 		if (j < 4)
 		{
