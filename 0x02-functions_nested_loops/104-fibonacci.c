@@ -11,7 +11,7 @@ int main(void)
 	int count;
 	unsigned long fib1 = 0;
 	unsigned long fib2 = 1;
-	unsigned ling sum;
+	unsigned long sum;
 
 	for (count = 0; count < 50; count++)
 	{
