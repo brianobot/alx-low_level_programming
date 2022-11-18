@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - prints numbers followed by newlinw
- * @separator: string to sepearate numbers
+ * @seperator: string to sepearate numbers
  * @n: the number to print
  * @...: a variable number of numbers to be printed
  */
